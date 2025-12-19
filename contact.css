@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+/* navbar */
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+     position:sticky;
+    top:0;
+    background-color:white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar a {
+  text-decoration: none;  
+  color: inherit;         
+}
+
+
+.navbar a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.options {
+ display:none;
+}
+.menu{
+  display: block;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right:20px;
+}
+@media (min-width:768px) {
+  .options {
+    display:flex;
+  justify-content: space-around;
+  gap: 34px;
+  margin-right: 20px;
+  }
+  .menu {
+    display:none;
+  }
+}
+
+
+/* container */
+.container{
+  margin-left:30%;
+}
+
+
+.section1__contact{
+    background-color: #892de1;
+    color:white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    display:inline-block;
+    margin: 10px;
+}
+
+.section1__name{
+    font-size: 60px;
+}
+.section1__role{
+    font-size:30px ;
+    margin-top:10px; 
+}
+
+
+.contactform{
+    margin-top: 20px;
+
+}
+
+.contactform__input,.contactform__textarea,.contactform__submit{
+    margin-top: 10px;
+
+}
+
+.contactform__input{
+    padding:10px;
+    border:none;
+    border-bottom: solid black 1px;
+
+}
+
+.contactform__textarea{
+    padding:10px;
+    border:none;
+    border: solid black 1px;
+    
+}
+
+.contactform__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #892de1;
+    color:black;
+    border:none;
+}
+
+/* footer */
+.footer{
+  padding: 20px;
+  margin-top:10%;
+  background-color:rgb(113, 63, 213) ;
+  
+  height:100%;
+}
+  
+
+
+.footer-title{
+  font-size: large;
+  font-weight: 400;
+  color:white;
+}
+.footer-desc{
+  font-size: medium;
+  font-weight: 100;
+  color:white;
+
+}
+.footer-logo{
+ display :flex;
+ gap:10px;
+}
+.footer-copy{
+ color:white;
+}
+
+
+
+

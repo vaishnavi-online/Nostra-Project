@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link rel="stylesheet" href="collection.css">
+    <!-- font style -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!-- sign up  -->
+    <div class="popup">
+        <p>Sign up and <u> GET 20% OFF</u> for your first order</p>
+        <p class="close-popup">x</p>
+    </div>
+
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="title">
+            <h1>Nostra</h1>
+        </div>
+        <div class="menu"><i class="fa-solid fa-bars"></i></div>
+        <div class="options">
+           <a href="index.html"><h4>Home</h4></a> 
+            <h4>Collections</h4>
+          <a href="contact.html"> <h4>Contact Us</h4></a> 
+        </div>
+    </div>
+
+    <!-- container -->
+
+    <div class="shop-container">
+        <aside class="sidebar">
+            <h3>Occasion</h3>
+            <label><input type="checkbox" class="filter-occasion" value="summer"> Summer</label><br>
+            <label><input type="checkbox" class="filter-occasion" value="party"> Party</label><br>
+            <label><input type="checkbox" class="filter-occasion" value="beach"> Beach</label><br><br>
+
+            <h3>Colors</h3>
+            <label><input type="checkbox" class="filter-color" value="red"> Red</label><br>
+            <label><input type="checkbox" class="filter-color" value="blue"> Blue</label><br>
+            <label><input type="checkbox" class="filter-color" value="white"> White</label><br>
+            <label><input type="checkbox" class="filter-color" value="green"> Green</label><br><br>
+
+            <h3>Arrivals</h3>
+            <label><input type="checkbox" class="filter-arrival" value="new"> New</label><br>
+            <label><input type="checkbox" class="filter-arrival" value="old"> Old</label><br>
+        </aside>
+
+
+
+        <!-- Products Section -->
+        <main class="products">
+            <!-- Search -->
+            <div class="search-box">
+                <input type="text" placeholder="search">
+            </div>
+
+           <div class="product-grid">
+
+    <div class="card"
+         data-occasion="summer"
+         data-color="white"
+         data-arrival="new">
+        <img src="images/product1.jpg">
+        <h4>Floral Summer Shirt</h4>
+        <p>₹220</p>
+    </div>
+
+    <div class="card"
+         data-occasion="summer"
+         data-color="green"
+         data-arrival="new">
+        <img src="images/shirt1.jpg">
+        <h4>Summer Green</h4>
+        <p>₹260</p>
+    </div>
+
+    <div class="card"
+         data-occasion="party"
+         data-color="red"
+         data-arrival="old">
+        <img src="images/shirt2.jpg">
+        <h4>Party Floral Shirt</h4>
+        <p>₹340</p>
+    </div>
+
+    <div class="card"
+         data-occasion="summer"
+         data-color="white"
+         data-arrival="new">
+        <img src="images/shirt3.jpg">
+        <h4>SummerRose Shirt</h4>
+        <p>₹479</p>
+    </div>
+
+    <div class="card"
+         data-occasion="beach summer"
+         data-color="blue"
+         data-arrival="old">
+        <img src="images/shirt4.jpg">
+        <h4>Beach Shirt</h4>
+        <p>₹329</p>
+    </div>
+
+    <div class="card"
+         data-occasion="party"
+         data-color="red"
+         data-arrival="new">
+        <img src="images/shirt6.jpg">
+        <h4>Shirt Party Red</h4>
+        <p>₹499</p>
+    </div>
+
+    <div class="card"
+         data-occasion="party"
+         data-color="white"
+         data-arrival="old">
+        <img src="images/shirt2.jpg">
+        <h4>Party Floral Shirt</h4>
+        <p>₹590</p>
+    </div>
+
+    <div class="card"
+         data-occasion="party"
+         data-color="red"
+         data-arrival="new">
+        <img src="images/shirt6.jpg">
+        <h4>Shirt Party Red</h4>
+        <p>₹320</p>
+    </div>
+
+    <div class="card"
+         data-occasion="summer"
+         data-color="white"
+         data-arrival="old">
+        <img src="images/product1.jpg">
+        <h4>Floral Summer Shirt</h4>
+        <p>₹270</p>
+    </div>
+
+</div>
+
+        </main>
+    </div>  
+
+      <!-- footer -->
+     <div class="footer">
+        <div class="footer-title">
+            <h1>Nostra</h1><br>
+        </div>
+        <div class="footer-desc">
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita saepe enim maxime voluptates, facere fugiat!</h4><br>
+        </div>
+        <div class="footer-logo">
+            <div class="insta">
+              <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+            </div>
+            <div class="twitter">
+               <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+            </div>
+            <div class="facebook">
+                <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </div>
+        </div><br>
+        <div class="footer-copy">
+            <p>@ 2023 Nostra.com</p><br>
+        </div>
+     </div>
+
+<script src="collection.js"></script>
+</body>
+
+</html>
